@@ -16,17 +16,4 @@ describe('demo calculator test',function(){
 
     });
 
-    it('subtraction test',function(){
-        
-        homepage.get(calcUrl);
- 
-        homepage.enterFirstNumber('1');
-        homepage.enterSecondNumber('2');
-        homepage.clickGo1();
-        homepage.verifyResult('4');
-     
-        browser.sleep(2000);
- 
-     });
-
 });
