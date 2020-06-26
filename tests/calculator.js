@@ -12,7 +12,7 @@ describe('demo calculator test',function(){
        homepage.clickGo();
        homepage.verifyResult('3');
     
-       browser.sleep(2000);
+       browser.sleep(3000);
 
     });
 
